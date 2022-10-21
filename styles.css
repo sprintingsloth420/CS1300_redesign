@@ -23,6 +23,7 @@ p{
   display: flex;
   flex-direction: column;
   flex-wrap:nowrap;
+  overflow: auto;
   justify-content: space-around;
   align-items: center;
   position:fixed;
@@ -330,5 +331,17 @@ li li{
   }
   .logo{
     padding-bottom: 2rem;
+  }
+  #big_slogan{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    margin:0;
+  }
+  #small_slogan{
+    font-size: 1.3rem;
+    margin:0;
+    padding-left: 7rem;
+    color: #C3B5A7;
+
   }
 }
